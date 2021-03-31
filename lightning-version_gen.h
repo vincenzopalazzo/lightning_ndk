@@ -1,2 +1,2 @@
-#define VERSION "v0.9.3"
+#define VERSION "v0.10.0"
 #define BUILD_FEATURES ""
