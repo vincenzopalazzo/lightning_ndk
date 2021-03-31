@@ -8,12 +8,8 @@ sha256_file=dd6dc090b6e2580206c64bcee499bc16509a5d017c6952dcd2bed9072af67cbd
 
 sudo apt-get -yqq update
 #sudo apt-get -yqq upgrade
-sudo apt-get -yqq install python3 python3-{pip,virtualenv,mako} curl build-essential libtool autotools-dev automake pkg-config bsdmainutils unzip git gettext
+sudo apt-get -yqq install python3 python3-{pip,virtualenv,mako,dev} curl build-essential libtool autotools-dev automake pkg-config bsdmainutils unzip git gettext
 python3 -m pip install virtualenv
-
-# Hotfix https://github.com/vincenzopalazzo/lightning_ndk/runs/2240791999
-# Suggested by https://github.com/pygobject/pycairo/issues/183
-sudo pip install -U --force-reinstall pip
 
 mkdir -p /opt
 
