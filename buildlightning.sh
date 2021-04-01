@@ -12,7 +12,7 @@ git checkout v0.10.0
 # set virtualenv for lightning
 python3 -m virtualenv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # provide generated config file instead run configure
 cp ${REPOPATH}/lightning-header_versions_gen.h header_versions_gen.h
