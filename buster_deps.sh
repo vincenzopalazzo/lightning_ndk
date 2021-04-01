@@ -8,11 +8,12 @@ sha256_file=dd6dc090b6e2580206c64bcee499bc16509a5d017c6952dcd2bed9072af67cbd
 
 sudo apt-get -yqq update
 #sudo apt-get -yqq upgrade
-sudo apt-get -yqq install python3.7 python3-{pip,virtualenv,mako,dev} \
+sudo apt-get -yqq install python3 python3-{pip,virtualenv,mako} \
      curl build-essential libtool autotools-dev automake \
      pkg-config bsdmainutils unzip git gettext \
      build-essential libssl-dev libffi-dev \
-     libxml2-dev libxslt1-dev zlib1g-dev libpython3.7-dev python3.7-dev
+     libxml2-dev libxslt1-dev zlib1g-dev \
+     libpython3.8-dev python3.8-dev python-dev
 
 python3 -m pip install virtualenv
 
