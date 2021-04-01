@@ -15,7 +15,7 @@ sudo apt-get -yqq install python3 python3-{pip,virtualenv,mako} \
      libxml2-dev libxslt1-dev zlib1g-dev \
      libpython3.8-dev python3.8-dev python-dev
 
-python3 -m pip install virtualenv
+#pip3 install virtualenv
 
 mkdir -p /opt
 
