@@ -12,7 +12,7 @@ sudo apt-get -yqq install python3 python3-{pip,virtualenv,mako,dev} \
      curl build-essential libtool autotools-dev automake \
      pkg-config bsdmainutils unzip git gettext \
      build-essential libssl-dev libffi-dev \
-     libxml2-dev libxslt1-dev zlib1g-dev
+     libxml2-dev libxslt1-dev zlib1g-dev libpython3.8-dev
 
 python3 -m pip install virtualenv
 
